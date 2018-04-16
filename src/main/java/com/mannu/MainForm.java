@@ -366,6 +366,7 @@ public class MainForm extends Thread{
 		lblShortCutKey.setFont(new Font("Century", Font.BOLD, 12));
 		lblShortCutKey.setBounds(41, 305, 97, 14);
 		frame.getContentPane().add(lblShortCutKey);
+		System.out.println("HH");
 		
 		JLabel lblForNextAntn = new JLabel("For Next:    Alt + N");
 		lblForNextAntn.setBounds(51, 330, 104, 14);
